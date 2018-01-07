@@ -1,0 +1,43 @@
+// === COLORS ===
+$coffe : #3e2723;
+$orange : #fff3e0;
+// === FONTS ===
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+// === SIZES ===
+$w: 320px; $h: 240px;
+nav {
+  background-color: $coffe;
+  font-family: 'pacifico', cursive; 
+}
+
+.photography {
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
+  width: 80%;
+  background-color: white;
+  padding: 50px;
+  
+  button {
+    margin-top: 12px;
+  }
+ 
+  video { 
+    border: solid 4px $coffe;
+    width: $w;
+    height: $h;
+  }
+  canvas { 
+    border: solid 4px $coffe;
+    margin-left: 10px;
+    position: relative;
+    width: $w;
+    height: $h;
+  }
+}
+i {
+  vertical-align: top; 
+}
+body {
+  background-color: #212121;
+}

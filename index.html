@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>CoffeSnap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="navbar-fixed">
+  <nav>
+    <a href="#" class="brand-logo center">CoffeSnap</a>
+  </nav>  
+</div>
+
+<div class="container">
+  <div class="photography z-depth-2">
+    <div class="row">
+      <div class="col s6">
+        <video id="video"></video>
+         <button id="startbutton" class="btn brown darken-2 waves-effect waves-light">
+      <i class="material-icons">camera_alt</i> Capturar Foto
+    </button>
+      </div>
+      <div class="col s6">
+         <canvas id="canvas"></canvas>
+       <!-- <button id="btnDownload" class="btn brown darken-2"> 
+      <i class="material-icons">file_download</i> Descargar
+    </button> -->
+      </div>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.3/vue.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js'></script>
+<script  src="js/index.js"></script>
+</body>
+</html>
