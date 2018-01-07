@@ -58,11 +58,9 @@
     let sound = 'http://www.sonidosmp3gratis.com/sounds/camara_5';
     fx.src = sound; fx.load(); fx.play();
   }
-  
   startbutton.addEventListener('click', ev => {
       takepicture();
       soundNotification();
       ev.preventDefault();
-  }, false);
-    
+  }, false); 
 })();
