@@ -53,8 +53,6 @@
     photo.setAttribute('src', data);
   }
 
-  
-  
   const soundNotification = () => {
     let fx = new Audio();
     let sound = 'http://www.sonidosmp3gratis.com/sounds/camara_5';
@@ -66,7 +64,5 @@
       soundNotification();
       ev.preventDefault();
   }, false);
-  
-  
-  
+    
 })();
